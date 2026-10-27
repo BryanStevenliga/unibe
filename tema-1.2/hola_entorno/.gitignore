@@ -1,0 +1,11 @@
+# Archivos generados por Dart y Pub
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+
+# Archivos de depuración y temporales
+*.iml
+.idea/
+.DS_Store

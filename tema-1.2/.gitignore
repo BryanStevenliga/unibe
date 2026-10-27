@@ -1,0 +1,16 @@
+# Build artifacts and tools
+.dart_tool/
+build/
+.packages
+.pub-cache/
+.pub/
+
+# IDE files
+.idea/
+*.iml
+.vscode/*
+!.vscode/launch.json
+
+# OS files
+.DS_Store
+Thumbs.db
