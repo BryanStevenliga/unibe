@@ -105,3 +105,23 @@ Edge (web)        • edge    • web-javascript • Microsoft Edge 153.0.4234.3
 - Barra de estado / AppBar: `"Steven Quindil - Flutter en Chrome"`
 - Color de tema (`seedColor`): `Colors.indigo`
 - Verificación con `flutter analyze`: `No issues found! (ran in 10.4s)`
+
+---
+
+## 5. Galería de Capturas de Pantalla
+
+### 5.1 Diagnóstico del Equipo (`diagnostico_equipo.png`)
+![Diagnóstico del Equipo](diagnostico_equipo.png)
+
+### 5.2 Versión del Flutter SDK y Dart (`version_flutter.png`)
+![Versión de Flutter y Dart](version_flutter.png)
+
+### 5.3 Extensiones en Visual Studio Code (`extensiones_vscode.png`)
+![Extensiones en VS Code](extensiones_vscode.png)
+
+### 5.4 Ejecución de Consola Dart (`ejecucion_consola.png`)
+![Ejecución de Consola](ejecucion_consola.png)
+
+### 5.5 Ejecución en Google Chrome (`ejecucion_chrome.png`)
+![Ejecución en Chrome](ejecucion_chrome.png)
+

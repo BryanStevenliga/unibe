@@ -50,6 +50,10 @@ Antes de desplegar las herramientas de desarrollo, se realizó un relevamiento c
 | **Virtualización** | Rendimiento > CPU > Virtualización | **Habilitada (AMD-V en BIOS/UEFI)** |
 | **Permisos de Administrador** | Control de cuentas de usuario (UAC) | **Usuario estándar / permisos de administración local** |
 
+<p align="center">
+  <img src="evidencias/diagnostico_equipo.png" alt="Diagnóstico de Hardware - Administrador de Tareas" width="850">
+</p>
+
 ### Justificación de Elección de Entorno Ligero
 A pesar de contar con 16 GB de RAM y virtualización por hardware activa en el procesador AMD, se seleccionó una estrategia de **entorno ligero basado en Consola Dart y Google Chrome** como destinos principales de desarrollo. 
 
@@ -73,6 +77,10 @@ El diagnóstico del sistema fue generado ejecutando `flutter doctor -v > tema-1.
 * **DevTools:** `2.48.0`
 * **Navegador Web:** Google Chrome `156.0.8078.48`
 * **Sistema Operativo:** Microsoft Windows 11 Pro (versión 10.0.26300.9711)
+
+<p align="center">
+  <img src="evidencias/version_flutter.png" alt="Verificación de versión de Flutter y Dart" width="750">
+</p>
 
 ### Análisis de Componentes en `flutter doctor`
 En el archivo `doctor.txt` se observan los siguientes diagnósticos de componentes:
@@ -123,6 +131,10 @@ start "" "%DEV%vscode\Code.exe"
 
 6. `start "" "%DEV%vscode\Code.exe"`:  
    Lanza el ejecutable de Visual Studio Code en modo desacoplado (asíncrono). Dado que VS Code es instanciado como un subproceso del script batch, **hereda íntegramente la tabla de variables de entorno** (`PATH` y `PUB_CACHE`). De este modo, las extensiones oficiales de Dart y Flutter detectan el SDK de forma automática sin requerir configuración manual.
+
+<p align="center">
+  <img src="evidencias/extensiones_vscode.png" alt="Visual Studio Code con extensiones de Dart y Flutter" width="850">
+</p>
 
 ---
 
@@ -181,6 +193,10 @@ Sistema: windows
 Dart: 3.9.2 (stable) (Wed Aug 27 03:49:40 2025 -0700) on "windows_x64"
 ```
 
+<p align="center">
+  <img src="evidencias/ejecucion_consola.png" alt="Ejecución de hola_entorno en consola interactiva" width="750">
+</p>
+
 ### 6.2 Proyecto Flutter en Chrome: `hola_flutter`
 Ubicado en `tema-1.2/hola_flutter/`:
 * Creado mediante `flutter create hola_flutter`.
@@ -188,6 +204,10 @@ Ubicado en `tema-1.2/hola_flutter/`:
 * Paleta cromática adaptada a `ColorScheme.fromSeed(seedColor: Colors.indigo)`.
 * Verificado con `flutter analyze`: Cero advertencias y cero errores de tipado o formato.
 * Ejecutado con `flutter run -d chrome`, demostrando la agilidad del *Hot Reload* presionando `r` en la terminal interactiva.
+
+<p align="center">
+  <img src="evidencias/ejecucion_chrome.png" alt="Ejecución de Flutter en Google Chrome" width="850">
+</p>
 
 ---
 
